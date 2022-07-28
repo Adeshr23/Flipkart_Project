@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [E-Commerce Domain]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FlipkartTest(failed)">
+    <classes>
+      <class name="TestClasses.VerifyUserCanLogin">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="VerifyUserCanLogIn"/>
+        </methods>
+      </class> <!-- TestClasses.VerifyUserCanLogin -->
+      <class name="TestClasses.VerifyAccountInfo">
+        <methods>
+          <include name="verifyusercanAddAddress"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="VerifyUserAccountInfo"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestClasses.VerifyAccountInfo -->
+    </classes>
+  </test> <!-- FlipkartTest(failed) -->
+</suite> <!-- Failed suite [E-Commerce Domain] -->

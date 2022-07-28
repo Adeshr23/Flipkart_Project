@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-28T00:56:42 IST" name="E-Commerce Domain" finished-at="2022-07-28T00:58:10 IST" duration-ms="88090">
+    <groups>
+    </groups>
+    <test started-at="2022-07-28T00:56:42 IST" name="FlipkartTest" finished-at="2022-07-28T00:58:10 IST" duration-ms="88090">
+      <class name="TestClasses.VerifyAccountInfo">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestClasses.VerifyAccountInfo@74235045]" started-at="2022-07-28T00:57:51 IST" name="beforeClass" finished-at="2022-07-28T00:57:51 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.VerifyAccountInfo@74235045]" started-at="2022-07-28T00:57:51 IST" name="beforeMethod" finished-at="2022-07-28T00:57:51 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserAccountInfo()[pri:0, instance:TestClasses.VerifyAccountInfo@74235045]" started-at="2022-07-28T00:57:51 IST" name="VerifyUserAccountInfo" finished-at="2022-07-28T00:57:56 IST" duration-ms="4556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserAccountInfo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClasses.VerifyAccountInfo@74235045]" started-at="2022-07-28T00:57:56 IST" name="afterMethod" finished-at="2022-07-28T00:57:56 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserAccountInfo status=SUCCESS method=VerifyAccountInfo.VerifyUserAccountInfo()[pri:0, instance:TestClasses.VerifyAccountInfo@74235045] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.VerifyAccountInfo@74235045]" started-at="2022-07-28T00:57:56 IST" name="beforeMethod" finished-at="2022-07-28T00:57:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyusercanAddAddress()[pri:1, instance:TestClasses.VerifyAccountInfo@74235045]" started-at="2022-07-28T00:57:56 IST" name="verifyusercanAddAddress" finished-at="2022-07-28T00:58:09 IST" duration-ms="13144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyusercanAddAddress -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClasses.VerifyAccountInfo@74235045]" started-at="2022-07-28T00:58:09 IST" name="afterMethod" finished-at="2022-07-28T00:58:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyusercanAddAddress status=SUCCESS method=VerifyAccountInfo.verifyusercanAddAddress()[pri:1, instance:TestClasses.VerifyAccountInfo@74235045] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClasses.VerifyAccountInfo@74235045]" started-at="2022-07-28T00:58:09 IST" name="afterClass" finished-at="2022-07-28T00:58:10 IST" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestClasses.VerifyAccountInfo -->
+      <class name="TestClasses.VerifyUserCanLogin">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestClasses.VerifyUserCanLogin@41d477ed]" started-at="2022-07-28T00:56:42 IST" name="beforeClass" finished-at="2022-07-28T00:57:19 IST" duration-ms="37081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.VerifyUserCanLogin@41d477ed]" started-at="2022-07-28T00:57:19 IST" name="beforeMethod" finished-at="2022-07-28T00:57:22 IST" duration-ms="2829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanLogIn()[pri:0, instance:TestClasses.VerifyUserCanLogin@41d477ed]" started-at="2022-07-28T00:57:22 IST" name="VerifyUserCanLogIn" finished-at="2022-07-28T00:57:43 IST" duration-ms="20793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanLogIn -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClasses.VerifyUserCanLogin@41d477ed]" started-at="2022-07-28T00:57:43 IST" name="afterMethod" finished-at="2022-07-28T00:57:43 IST" duration-ms="479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanLogIn status=SUCCESS method=VerifyUserCanLogin.VerifyUserCanLogIn()[pri:0, instance:TestClasses.VerifyUserCanLogin@41d477ed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClasses.VerifyUserCanLogin@41d477ed]" started-at="2022-07-28T00:57:43 IST" name="afterClass" finished-at="2022-07-28T00:57:51 IST" duration-ms="7582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestClasses.VerifyUserCanLogin -->
+    </test> <!-- FlipkartTest -->
+  </suite> <!-- E-Commerce Domain -->
+</testng-results>
